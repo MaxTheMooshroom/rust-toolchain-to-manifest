@@ -32,6 +32,8 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             cargo
+            clippy
+            rustfmt
           ];
         };
       };
