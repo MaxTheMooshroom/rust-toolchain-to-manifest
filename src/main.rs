@@ -28,5 +28,5 @@ fn main() {
     let Cli { toolchain } = Cli::parse();
     let url: String = channel_to_manifest_url(&toolchain);
 
-    println!("{url}");
+    print!("{url}");
 }
